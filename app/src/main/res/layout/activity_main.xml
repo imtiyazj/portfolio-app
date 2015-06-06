@@ -1,0 +1,101 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="270dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="33dp"
+        android:gravity="center|top"
+        android:layout_gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="false"
+        android:layout_centerInParent="true">
+
+        <TextView android:text="@string/my_nanodegree_apps" android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@android:color/black"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="30dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/spotify_streamer"
+            android:id="@+id/btnSpotify"
+            android:background="#ff64b5f6"
+            android:width="200dp"
+            android:height="50dp"
+            android:layout_marginBottom="10dp"
+            android:onClick="openSpotifyStreamer" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/scores_app"
+            android:id="@+id/btnScores"
+            android:background="#ff64b5f6"
+            android:width="200dp"
+            android:height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:onClick="openScoresApp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/library_app"
+            android:id="@+id/btnLibrary"
+            android:background="#ff64b5f6"
+            android:width="200dp"
+            android:height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:onClick="openLibraryApp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/build_it_bigger"
+            android:id="@+id/btnBuild"
+            android:background="#ff64b5f6"
+            android:width="200dp"
+            android:height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:onClick="openBuildItBigger" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bacon_reader"
+            android:id="@+id/btnBacon"
+            android:background="#ff64b5f6"
+            android:width="200dp"
+            android:height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:onClick="openBaconReader" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/my_own_app"
+            android:id="@+id/btnCapstone"
+            android:background="#ffffc107"
+            android:width="200dp"
+            android:height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:onClick="openCapstone" />
+    </LinearLayout>
+
+</RelativeLayout>
